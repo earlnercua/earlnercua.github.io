@@ -1,0 +1,321 @@
+
+:root{
+    --doc-height: 100vh;
+    --doc-width: 100vw;
+    --main-accent: rgb(50, 50, 100);
+    --light-mode-main: rgb(210, 210, 220);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro;
+    color: white;
+}
+
+body{
+    overflow: hidden;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    width: calc(var(--doc-width));
+    height: 18vh;
+    flex-wrap: wrap;
+
+    top: 0;
+    background-color: var(--main-accent);
+    transition: 1s;
+}
+
+
+.top-nav-container{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ceu-logo{
+    width: auto;
+    height: 76.88px;
+
+    margin: 1vh 0 0 1vw;
+}
+
+.bot-nav-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: end;
+
+}
+
+.nav-item{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a{
+    font-size: 10pt;
+}
+
+#color-mode-btn{
+    height: 10vh;
+    width: auto;
+    scale: 50%;
+}
+
+.home-container{
+    height: calc(var(--doc-height) - 10vh);
+    width: var(--doc-width);
+    display: flex;
+    margin: 10vh 0 0 0;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--main-accent);
+}
+
+.gallery-screen{
+    height: var(--doc-height);
+    width: var(--doc-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.gallery-container{
+    display: flex;
+    flex-direction: row;
+    height: calc(var(--doc-height) * 0.5);
+    width: var(--doc-width);
+    justify-content: left;
+    align-items: center;
+    overflow:scroll;
+    background-color: lightgray;
+}
+
+.gallery-header{
+    font-weight: 500;
+    color: black;
+    margin: 0 0 0 10px
+}
+
+.gallery-item{
+    height: 80%;
+    width: 200px;
+    flex-shrink: 0;
+    margin: 0 0 0 10px;
+    border-radius: 10px;
+    background-color: gray;
+    transition: 2s;
+}
+
+
+
+/* STUDENTS PAGE */
+
+
+
+#students-home-container{
+    width: var(--doc-width);
+    height: var(--doc-height);
+    background-color: var(--light-mode-main);
+    justify-content: center;
+    align-items: start;
+}
+
+.students-container{
+    display: flex;
+    flex-direction: column;
+    width: calc(var(--doc-width) - 20vh);
+    height: 90vh;
+
+    margin: 10vh 0 10px 0 ;
+    padding: 10px;
+    background-color: white;
+    list-style-type: none;
+    border-radius: 10px;
+
+    justify-content: start;
+    align-items: center;
+}
+
+#students-header{
+    align-self: start;
+
+    margin: 10px;
+    color: black;
+}
+
+.student-item-container{
+    display: flex;
+    width: 95%;
+    height: 10vh;
+
+    margin-top: 10px;
+    padding:10px;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+.student-info{
+    display: flex;
+
+
+    margin: 0 0 0 10px;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+.student-image{
+    width: auto;
+    height: 95%;
+    
+    border:2pt solid white;
+    border-radius: 100%;
+}
+
+/* .full-name{
+    flex-basis: 100%;
+
+}
+
+.section{
+    flex-basis: 18%;
+
+
+}
+
+.advocacy{
+    flex-basis: 18%;
+
+} */
+
+.student-info-content{
+    flex-basis: 80%;
+    font-size: 8pt;
+}
+
+
+/* ADVOCACIES PAGE */
+
+.advocacies-screen{
+    display: flex;
+    width: var(--doc-width);
+    height: calc(var(--doc-height) - 16vh);
+    background-color: var(--light-mode-main);
+    justify-content: center;
+    align-items: center;
+
+    margin: 18vh 0 0 0 ;
+    overflow: none;
+
+}
+
+.main-container{
+    display: flex;
+    width: calc(var(--doc-width) - 2.5vw);
+    height: 95%;
+
+    /* margin: 100px ; */
+
+}
+
+.students-list-container{
+    width: 25%;
+    height: 90%;
+    justify-content: start;
+    align-items: center;
+
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    list-style-type: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.students-list{
+    height: 100%;
+    overflow: scroll;
+}
+.students-list-header{
+    background-color: white;
+
+}
+
+.students-list-item{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: start;
+    align-items: center;
+
+    margin: 10px 0 10px 0;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.student-picture{
+    width: auto;
+    height: 80%;
+    /* order: 1; */
+
+    margin: 0 10px 0 10px;
+    border-radius: 100%;
+
+}
+
+.advocacies-text-container{
+    flex-shrink: 1;
+    order: 1;
+    flex-direction: column;
+}
+
+.students-list-item p{
+    flex-wrap: nowrap;
+    /* flex-basis: 100%; */
+
+    font-size: 6pt;
+}
+.full-name{
+    font-size: 8pt;
+    font-weight: 700; 
+}
+
+.advocacy-viewer-container{
+    width: 50%;
+    height: 90%;
+    flex-grow: 2;
+
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .full-name, .students-list-item p{
+        display: none;
+    }
+
+
+
+
+
+}
