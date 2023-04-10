@@ -93,9 +93,6 @@ for(let i in data){
     createStudentElement(i)
 }
 
-for(let i in data){
-    createStudentElement(i)
-}
 
 let studentsListItems = document.getElementsByClassName('students-list-item');
 let selected = null;
