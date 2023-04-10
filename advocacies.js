@@ -49,13 +49,16 @@ let currentDisplay = null;
 
 let studentsListItems = document.getElementsByClassName('students-list-item');
 let selected = null;
-print(studentsListItems);
+
 document.addEventListener('click', (e) => {
     let page = document.querySelector('.advocacy-viewer-container');
     page.style.color="black";
     const el = e.target;
 
     if(el.className == 'students-list-item'){
+
+        removeAllChildren(page);
+
         let selectedArr = el.querySelector('.full-name').textContent.split(", ");
         selected = selectedArr[0];
         print("successfully selected " + selected);
@@ -80,6 +83,9 @@ document.addEventListener('click', (e) => {
         video.setAttribute('src', obj.content[1]);
         infographic.setAttribute('src', obj.content[2]);
 
+       
+    }
+    if(currentDisplay != null){
         if(el == essayTab){
             page.appendChild(essay);
         }
@@ -90,11 +96,27 @@ document.addEventListener('click', (e) => {
             page.appendChild(infographic);
         }   
     }
+    
 })
 
 
 
 // UTIL
+
+function removeAllChildren(parent){
+
+    if(parent.hasChildNodes()){
+        for(let i = 0; i < parent.children; i++){
+            if(parent.children[i].className == "advocacy-tab-container"){
+                continue;
+            }
+            else{
+                parent.removeChild(parent.children[i]);
+            }
+          
+        }
+    }
+}
 
 function getStudent(lastName){
     let obj = null;
