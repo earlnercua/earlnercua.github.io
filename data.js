@@ -1,9 +1,9 @@
 export const data = [
 	{
 
-		"last-name": "Abreu",
+		"last_name": "Abreu",
 
-		"first-name": "Wayne",
+		"last_name": "Wayne",
 
 		"middle-initial": "A.",
 
@@ -19,9 +19,9 @@ export const data = [
 
 	{
 
-		"last-name": "Alim",
+		"last_name": "Alim",
 
-		"first-name": "Rohaniesa",
+		"last_name": "Rohaniesa",
 
 		"middle-initial": "S.",
 
@@ -37,9 +37,9 @@ export const data = [
 
 	{
 
-		"last-name": "Barrozo",
+		"last_name": "Barrozo",
 
-		"first-name": "Kheen Lester",
+		"last_name": "Kheen Lester",
 
 		"middle-initial": null,
 
@@ -53,9 +53,9 @@ export const data = [
 
 	{
 
-		"last-name": "Baylon",
+		"last_name": "Baylon",
 
-		"first-name": "Adrian",
+		"last_name": "Adrian",
 
 		"middle-initial": null,
 
@@ -70,9 +70,9 @@ export const data = [
 
 	{
 
-		"last-name": "Bernardino",
+		"last_name": "Bernardino",
 
-		"first-name": "Joemel",
+		"last_name": "Joemel",
 
 		"middle-initial": "L.",
 
@@ -87,9 +87,9 @@ export const data = [
 
 	{
 
-		"last-name": "Buenaobra",
+		"last_name": "Buenaobra",
 
-		"first-name": "John Paolo",
+		"last_name": "John Paolo",
 
 		"middle-initial": null,
 
@@ -105,9 +105,9 @@ export const data = [
 
 	{
 
-		"last-name": "Domingo",
+		"last_name": "Domingo",
 
-		"first-name": "Kyle Andrei",
+		"last_name": "Kyle Andrei",
 
 		"middle-initial": "N.",
 
@@ -121,9 +121,9 @@ export const data = [
 
 	{
 
-		"last-name": "Gaza",
+		"last_name": "Gaza",
 
-		"first-name": "Kevin",
+		"last_name": "Kevin",
 
 		"middle-initial": "C.",
 
@@ -140,9 +140,9 @@ export const data = [
 
 	{
 
-	"last-name": "Gonzales",
+	"last_name": "Gonzales",
 
-	"first-name": "Nathaniel",
+	"last_name": "Nathaniel",
 
 	"middle-initial": null,
 
@@ -156,9 +156,9 @@ export const data = [
 
 	{
 
-	"last-name": "Gramonte",
+	"last_name": "Gramonte",
 
-	"first-name": "Aizer",
+	"last_name": "Aizer",
 
 	"middle-initial": "A.",
 
@@ -174,9 +174,9 @@ export const data = [
 
 	{
 
-	"last-name": "Immaculata" ,
+	"last_name": "Immaculata" ,
 
-	"first-name": "Noel",
+	"last_name": "Noel",
 
 	"middle-initial": "C.",
 
@@ -192,9 +192,9 @@ export const data = [
 
 	{
 
-	"last-name": "Lacra" ,
+	"last_name": "Lacra" ,
 
-	"first-name": "Amandy" ,
+	"last_name": "Amandy" ,
 
 	"middle-initial": null,
 
@@ -210,9 +210,9 @@ export const data = [
 
 	{
 
-	"last-name": "Lanto" ,
+	"last_name": "Lanto" ,
 
-	"first-name": "Josh" ,
+	"last_name": "Josh" ,
 
 	"middle-initial": "M.",
 
@@ -228,9 +228,9 @@ export const data = [
 
 	{
 
-	"last-name": "Lu",
+	"last_name": "Lu",
 
-	"first-name": "Grant",
+	"last_name": "Grant",
 
 	"middle-initial": "G.",
 
@@ -244,9 +244,9 @@ export const data = [
 	
 	{
 
-	"last-name": "Macuja" ,
+	"last_name": "Macuja" ,
 
-	"first-name": "Angelo" ,
+	"last_name": "Angelo" ,
 
 	"middle-initial":"R.",
 
@@ -262,9 +262,9 @@ export const data = [
 
 	{
 
-	"last-name": "Martinez" ,
+	"last_name": "Martinez" ,
 
-	"first-name": "Nebochadnezzar" ,
+	"last_name": "Nebochadnezzar" ,
 
 	"middle-initial": "C.",
 
@@ -278,9 +278,9 @@ export const data = [
 
 	{
 
-	"last-name": "Mendioro" ,
+	"last_name": "Mendioro" ,
 
-	"first-name": "Anthony",
+	"last_name": "Anthony",
 
 	"middle-initial": null,
 
@@ -296,9 +296,9 @@ export const data = [
 
 	{
 
-		"last-name": "Metrillo",
+		"last_name": "Metrillo",
 
-		"first-name": "Brian David",
+		"last_name": "Brian David",
 
 		"middle-initial": "E.",
 
@@ -315,9 +315,9 @@ export const data = [
 
 	{
 
-		"last-name": "Mijares",
+		"last_name": "Mijares",
 
-		"first-name": "Baron Terence",
+		"last_name": "Baron Terence",
 
 		"middle-initial": "S.",
 
@@ -334,9 +334,9 @@ export const data = [
 
 	{
 
-		"last-name": "Pajarillaga",
+		"last_name": "Pajarillaga",
 
-		"first-name": "Xyrus Lex",
+		"last_name": "Xyrus Lex",
 
 		"middle-initial": "T.",
 
@@ -353,9 +353,9 @@ export const data = [
 
 	{
 
-		"last-name": "Panganiban",
+		"last_name": "Panganiban",
 
-		"first-name": "Ramuel",
+		"last_name": "Ramuel",
 
 		"middle-initial": "D.J.",
 
@@ -373,9 +373,9 @@ export const data = [
 
 	{
 
-		"last-name": "Punzalan",
+		"last_name": "Punzalan",
 
-		"first-name": "Shan Alystair",
+		"last_name": "Shan Alystair",
 
 		"middle-initial": "K.",
 
@@ -393,9 +393,9 @@ export const data = [
 
 	{
 
-		"last-name": "Rodel",
+		"last_name": "Rodel",
 
-		"first-name": "Christine Paula",
+		"last_name": "Christine Paula",
 
 		"middle-initial": "C.",
 
@@ -413,9 +413,9 @@ export const data = [
 
 	{
 
-		"last-name": "Reyes",
+		"last_name": "Reyes",
 
-		"first-name": "Josiah Emmanuel",
+		"last_name": "Josiah Emmanuel",
 
 		"middle-initial": "G.",
 
@@ -432,9 +432,9 @@ export const data = [
 
 	{
 
-		"last-name": "Sy",
+		"last_name": "Sy",
 
-		"first-name": "Romeo Hodei",
+		"last_name": "Romeo Hodei",
 
 		"middle-initial": null,
 
@@ -451,9 +451,9 @@ export const data = [
 
 	{
 
-	"last-name": "Gonzales",
+	"last_name": "Gonzales",
 
-	"first-name": "Nathaniel",
+	"last_name": "Nathaniel",
 
 	"middle-initial": null,
 
@@ -469,9 +469,9 @@ export const data = [
 
 {
 
-	"last-name": "Gramonte",
+	"last_name": "Gramonte",
 
-	"first-name": "Aizer",
+	"last_name": "Aizer",
 
 	"middle-initial": "A.",
 
@@ -487,9 +487,9 @@ export const data = [
 
 {
 
-	"last-name":"Immaculata" ,
+	"last_name":"Immaculata" ,
 
-	"first-name": "Noel",
+	"last_name": "Noel",
 
 	"middle-initial": "C.",
 
@@ -505,9 +505,9 @@ export const data = [
 
 {
 
-	"last-name":"Lacra",
+	"last_name":"Lacra",
 
-	"first-name":"Amandy",
+	"last_name":"Amandy",
 
 	"middle-initial": null,
 
@@ -523,9 +523,9 @@ export const data = [
 
 {
 
-	"last-name":"Lanto",
+	"last_name":"Lanto",
 
-	"first-name":"Josh",
+	"last_name":"Josh",
 
 	"middle-initial": "M.",
 
@@ -541,9 +541,9 @@ export const data = [
 
 {
 
-	"last-name": "Lu",
+	"last_name": "Lu",
 
-	"first-name": "Grant",
+	"last_name": "Grant",
 
 	"middle-initial": "G.",
 
@@ -559,9 +559,9 @@ export const data = [
 
 {
 
-	"last-name":"Macuja",
+	"last_name":"Macuja",
 
-	"first-name":"Angelo",
+	"last_name":"Angelo",
 
 	"middle-initial":"R.",
 
@@ -577,9 +577,9 @@ export const data = [
 
 {
 
-	"last-name": "Martinez" ,
+	"last_name": "Martinez" ,
 
-	"first-name": "Nebochadnezzar" ,
+	"last_name": "Nebochadnezzar" ,
 
 	"middle-initial": "C.",
 
@@ -595,9 +595,9 @@ export const data = [
 
 {
 
-	"last-name": "Mendioro" ,
+	"last_name": "Mendioro" ,
 
-	"first-name": "Anthony",
+	"last_name": "Anthony",
 
 	"middle-initial": null,
 

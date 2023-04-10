@@ -8,7 +8,7 @@ function createStudentElement(dataIndex){
     
 
     let profilePic = document.createElement('img');
-    let picURL = './images/profile_pictures/' + obj.last-name.replace(" ", "").toLowerCase() + '.jpeg';
+    let picURL = './images/profile_pictures/' + obj.last_name.replace(" ", "").toLowerCase() + '.jpeg';
 
     profilePic.setAttribute('class', 'student-picture');
     profilePic.setAttribute('src', picURL)
@@ -18,7 +18,7 @@ function createStudentElement(dataIndex){
 
     let fullName = document.createElement('p');
     fullName.setAttribute('class', 'full-name');
-    fullName.textContent = obj.last-name + ", " + obj.first-name;
+    fullName.textContent = obj.last_name + ", " + obj.first_name;
 
     // let section = document.createElement('p');
     // section.setAttribute('class', 'section');
