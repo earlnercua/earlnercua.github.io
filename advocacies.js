@@ -8,10 +8,10 @@ function createStudentElement(dataIndex){
     
 
     let profilePic = document.createElement('img');
-    let picURL = './images/profile_pictures/_null.png';
+    let picURL = './images/profile_pictures/_null.jpeg';
 
     try {
-        picURL = './images/profile_pictures/' + obj.last_name.replace(" ", "").toLowerCase() + '.jpeg';
+        picURL = './images/profile_pictures/' + obj.last-name.replace(" ", "").toLowerCase() + '.jpeg';
     } catch (error) {
         picURL = './images/profile_pictures/_null.png';
     }
@@ -24,11 +24,11 @@ function createStudentElement(dataIndex){
 
     let fullName = document.createElement('p');
     fullName.setAttribute('class', 'full-name');
-    fullName.textContent = obj.last_name + ", " + obj.first_name;
+    fullName.textContent = obj.last-name + ", " + obj.first-name;
 
-    let section = document.createElement('p');
-    section.setAttribute('class', 'section');
-    section.textContent = 'Section: ' + obj.section;
+    // let section = document.createElement('p');
+    // section.setAttribute('class', 'section');
+    // section.textContent = 'Section: ' + obj.section;
 
 
     let advocacy = document.createElement('p');
