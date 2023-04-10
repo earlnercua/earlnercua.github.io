@@ -64,7 +64,7 @@ document.addEventListener('click', (e) => {
     const el = e.target;
 
     if(el.className == 'students-list-item'){
-
+        currentDisplay = el;
         removeAllChildren(page);
 
         let selectedArr = el.querySelector('.full-name').textContent.split(", ");
