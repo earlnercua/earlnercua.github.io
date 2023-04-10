@@ -43,7 +43,8 @@ function createStudentElement(dataIndex){
     itemContainer.setAttribute('class', 'students-list-item');
     
 
-    let profilePic = document.createElement('img')
+    let profilePic = document.createElement('img');
+    let picURL = null;
     try {
         let picURL = './images/profile_pictures/' + obj.last_name.replace(" ", "").toLowerCase() + '.jpeg';
     } catch (error) {
