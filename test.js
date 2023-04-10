@@ -1,10 +1,10 @@
 export const data = [
     {
-        "last_name": "Malana",
-        "first_name": "Byron",
+        "last_name": "Abreu",
+        "first_name": "Wayne",
         "section": "BSIT-1A",
-        "advocacy": "Human Rights",
-        "content": "Lorem Ipsum",
+        "advocacy": "Racial Justice",
+        "content": ["https://docs.google.com/document/d/e/2PACX-1vR-w6K7vrD3D200F7VLZGjhRQl16Nz9kj5c6OweKrnaOdRbU2hOC-xPj-ioTjaXeg/pub?embedded=true"],
         "referemces": null
     },
     {

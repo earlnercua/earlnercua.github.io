@@ -44,7 +44,12 @@ function createStudentElement(dataIndex){
     
 
     let profilePic = document.createElement('img')
-    let picURL = './images/profile_pictures/' + obj.last_name.replace(" ", "").toLowerCase() + '.jpeg';
+    try {
+        let picURL = './images/profile_pictures/' + obj.last_name.replace(" ", "").toLowerCase() + '.jpeg';
+    } catch (error) {
+        let picURL = '.images/profile_pictures/_null.png';
+    }
+   
     profilePic.setAttribute('class', 'student-picture');
     profilePic.setAttribute('src', picURL)
 
@@ -106,8 +111,12 @@ document.addEventListener('click', (e) => {
         print(obj);
         let parsed = obj.first_name + obj.last_name + obj.section + obj.content;
 
+        let doc = page.createElement('iframe');
+        doc.setAttribute('src', obj.content[0]);
+
         page.textContent = parsed;
-    }
+        page.appendChild(doc);
+        }
 })
 
 
