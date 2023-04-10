@@ -20,11 +20,6 @@ function createStudentElement(dataIndex){
     fullName.setAttribute('class', 'full-name');
     fullName.textContent = obj.last_name + ", " + obj.first_name;
 
-    // let section = document.createElement('p');
-    // section.setAttribute('class', 'section');
-    // section.textContent = 'Section: ' + obj.section;
-
-
     let advocacy = document.createElement('p');
     advocacy.setAttribute('class', 'advocacy');
     advocacy.textContent = 'Advocacy: ' + obj.advocacy;
@@ -39,7 +34,6 @@ function createStudentElement(dataIndex){
     itemContainer.appendChild(profilePic);
     itemContainer.appendChild(advocaciesTextContainer);
     advocaciesTextContainer.appendChild(fullName);
-    // advocaciesTextContainer.appendChild(section);
     advocaciesTextContainer.appendChild(advocacy);
 
  

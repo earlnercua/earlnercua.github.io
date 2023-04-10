@@ -3,7 +3,7 @@ export const data = [
 
 		"last_name": "Abreu",
 
-		"last_name": "Wayne",
+		"first_name": "Wayne",
 
 		"middle-initial": "A.",
 
@@ -21,7 +21,7 @@ export const data = [
 
 		"last_name": "Alim",
 
-		"last_name": "Rohaniesa",
+		"first_name": "Rohaniesa",
 
 		"middle-initial": "S.",
 
@@ -39,7 +39,7 @@ export const data = [
 
 		"last_name": "Barrozo",
 
-		"last_name": "Kheen Lester",
+		"first_name": "Kheen Lester",
 
 		"middle-initial": null,
 
@@ -55,7 +55,7 @@ export const data = [
 
 		"last_name": "Baylon",
 
-		"last_name": "Adrian",
+		"first_name": "Adrian",
 
 		"middle-initial": null,
 
@@ -72,7 +72,7 @@ export const data = [
 
 		"last_name": "Bernardino",
 
-		"last_name": "Joemel",
+		"first_name": "Joemel",
 
 		"middle-initial": "L.",
 
@@ -89,7 +89,7 @@ export const data = [
 
 		"last_name": "Buenaobra",
 
-		"last_name": "John Paolo",
+		"first_name": "John Paolo",
 
 		"middle-initial": null,
 
@@ -107,7 +107,7 @@ export const data = [
 
 		"last_name": "Domingo",
 
-		"last_name": "Kyle Andrei",
+		"first_name": "Kyle Andrei",
 
 		"middle-initial": "N.",
 
@@ -123,7 +123,7 @@ export const data = [
 
 		"last_name": "Gaza",
 
-		"last_name": "Kevin",
+		"first_name": "Kevin",
 
 		"middle-initial": "C.",
 
@@ -142,7 +142,7 @@ export const data = [
 
 	"last_name": "Gonzales",
 
-	"last_name": "Nathaniel",
+	"first_name": "Nathaniel",
 
 	"middle-initial": null,
 
@@ -158,7 +158,7 @@ export const data = [
 
 	"last_name": "Gramonte",
 
-	"last_name": "Aizer",
+	"first_name": "Aizer",
 
 	"middle-initial": "A.",
 
@@ -176,7 +176,7 @@ export const data = [
 
 	"last_name": "Immaculata" ,
 
-	"last_name": "Noel",
+	"first_name": "Noel",
 
 	"middle-initial": "C.",
 
@@ -194,7 +194,7 @@ export const data = [
 
 	"last_name": "Lacra" ,
 
-	"last_name": "Amandy" ,
+	"first_name": "Amandy" ,
 
 	"middle-initial": null,
 
@@ -212,7 +212,7 @@ export const data = [
 
 	"last_name": "Lanto" ,
 
-	"last_name": "Josh" ,
+	"first_name": "Josh" ,
 
 	"middle-initial": "M.",
 
@@ -230,7 +230,7 @@ export const data = [
 
 	"last_name": "Lu",
 
-	"last_name": "Grant",
+	"first_name": "Grant",
 
 	"middle-initial": "G.",
 
@@ -246,7 +246,7 @@ export const data = [
 
 	"last_name": "Macuja" ,
 
-	"last_name": "Angelo" ,
+	"first_name": "Angelo" ,
 
 	"middle-initial":"R.",
 
@@ -264,7 +264,7 @@ export const data = [
 
 	"last_name": "Martinez" ,
 
-	"last_name": "Nebochadnezzar" ,
+	"first_name": "Nebochadnezzar" ,
 
 	"middle-initial": "C.",
 
@@ -280,7 +280,7 @@ export const data = [
 
 	"last_name": "Mendioro" ,
 
-	"last_name": "Anthony",
+	"first_name": "Anthony",
 
 	"middle-initial": null,
 
@@ -298,7 +298,7 @@ export const data = [
 
 		"last_name": "Metrillo",
 
-		"last_name": "Brian David",
+		"first_name": "Brian David",
 
 		"middle-initial": "E.",
 
@@ -317,7 +317,7 @@ export const data = [
 
 		"last_name": "Mijares",
 
-		"last_name": "Baron Terence",
+		"first_name": "Baron Terence",
 
 		"middle-initial": "S.",
 
@@ -336,7 +336,7 @@ export const data = [
 
 		"last_name": "Pajarillaga",
 
-		"last_name": "Xyrus Lex",
+		"first_name": "Xyrus Lex",
 
 		"middle-initial": "T.",
 
@@ -355,7 +355,7 @@ export const data = [
 
 		"last_name": "Panganiban",
 
-		"last_name": "Ramuel",
+		"first_name": "Ramuel",
 
 		"middle-initial": "D.J.",
 
@@ -375,7 +375,7 @@ export const data = [
 
 		"last_name": "Punzalan",
 
-		"last_name": "Shan Alystair",
+		"first_name": "Shan Alystair",
 
 		"middle-initial": "K.",
 
@@ -395,7 +395,7 @@ export const data = [
 
 		"last_name": "Rodel",
 
-		"last_name": "Christine Paula",
+		"first_name": "Christine Paula",
 
 		"middle-initial": "C.",
 
@@ -415,7 +415,7 @@ export const data = [
 
 		"last_name": "Reyes",
 
-		"last_name": "Josiah Emmanuel",
+		"first_name": "Josiah Emmanuel",
 
 		"middle-initial": "G.",
 
@@ -434,7 +434,7 @@ export const data = [
 
 		"last_name": "Sy",
 
-		"last_name": "Romeo Hodei",
+		"first_name": "Romeo Hodei",
 
 		"middle-initial": null,
 
@@ -453,7 +453,7 @@ export const data = [
 
 	"last_name": "Gonzales",
 
-	"last_name": "Nathaniel",
+	"first_name": "Nathaniel",
 
 	"middle-initial": null,
 
@@ -471,7 +471,7 @@ export const data = [
 
 	"last_name": "Gramonte",
 
-	"last_name": "Aizer",
+	"first_name": "Aizer",
 
 	"middle-initial": "A.",
 
@@ -489,7 +489,7 @@ export const data = [
 
 	"last_name":"Immaculata" ,
 
-	"last_name": "Noel",
+	"first_name": "Noel",
 
 	"middle-initial": "C.",
 
@@ -507,7 +507,7 @@ export const data = [
 
 	"last_name":"Lacra",
 
-	"last_name":"Amandy",
+	"first_name":"Amandy",
 
 	"middle-initial": null,
 
@@ -525,7 +525,7 @@ export const data = [
 
 	"last_name":"Lanto",
 
-	"last_name":"Josh",
+	"first_name":"Josh",
 
 	"middle-initial": "M.",
 
@@ -543,7 +543,7 @@ export const data = [
 
 	"last_name": "Lu",
 
-	"last_name": "Grant",
+	"first_name": "Grant",
 
 	"middle-initial": "G.",
 
@@ -561,7 +561,7 @@ export const data = [
 
 	"last_name":"Macuja",
 
-	"last_name":"Angelo",
+	"first_name":"Angelo",
 
 	"middle-initial":"R.",
 
@@ -579,7 +579,7 @@ export const data = [
 
 	"last_name": "Martinez" ,
 
-	"last_name": "Nebochadnezzar" ,
+	"first_name": "Nebochadnezzar" ,
 
 	"middle-initial": "C.",
 
@@ -597,7 +597,7 @@ export const data = [
 
 	"last_name": "Mendioro" ,
 
-	"last_name": "Anthony",
+	"first_name": "Anthony",
 
 	"middle-initial": null,
 
