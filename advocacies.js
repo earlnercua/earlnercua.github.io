@@ -45,6 +45,7 @@ for(let i in data){
     createStudentElement(i)
 }
 
+let currentDisplay = null;
 
 let studentsListItems = document.getElementsByClassName('students-list-item');
 let selected = null;
@@ -62,12 +63,33 @@ document.addEventListener('click', (e) => {
         print(obj);
         let parsed = obj.first_name + obj.last_name + obj.content;
 
-        let doc = document.createElement('iframe');
-        doc.setAttribute('class', "student-document");
-        doc.setAttribute('src', obj.content[0]);
+        const tabsArray = document.querySelectorAll(".advocacy-tab-btn");
 
-        page.appendChild(doc);
+        const tabsContainer = document.querySelector('.advocacy-tab-container');
+        const essayTab = tabsArray[0];
+        const videoTab = tabsArray[1];
+        const infoTab = tabsArray[2];
+        const essay = document.createElement('iframe');
+        const video = document.createElement('video');
+        const infographic = document.createElement('img');
+
+
+        
+        essay.setAttribute('class', "student-essay");
+        essay.setAttribute('src', obj.content[0]);
+        video.setAttribute('src', obj.content[1]);
+        infographic.setAttribute('src', obj.content[2]);
+
+        if(el == essayTab){
+            page.appendChild(essay);
         }
+        else if(el == videoTab){
+            page.appendChild(video);
+        }
+        else if(el == infoTab){
+            page.appendChild(infographic);
+        }   
+    }
 })
 
 
