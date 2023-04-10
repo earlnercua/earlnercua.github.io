@@ -45,6 +45,7 @@ function createStudentElement(dataIndex){
 
     let profilePic = document.createElement('img');
     let picURL = './images/profile_pictures/_null.png';
+
     try {
         picURL = './images/profile_pictures/' + obj.last_name.replace(" ", "").toLowerCase() + '.jpeg';
     } catch (error) {
