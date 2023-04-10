@@ -44,11 +44,11 @@ function createStudentElement(dataIndex){
     
 
     let profilePic = document.createElement('img');
-    let picURL = null;
+    let picURL = './images/profile_pictures/_null.png';
     try {
         picURL = './images/profile_pictures/' + obj.last_name.replace(" ", "").toLowerCase() + '.jpeg';
     } catch (error) {
-        picURL = '.images/profile_pictures/_null.png';
+        picURL = './images/profile_pictures/_null.png';
     }
    
     profilePic.setAttribute('class', 'student-picture');
