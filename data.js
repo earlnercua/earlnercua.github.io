@@ -11,7 +11,7 @@ export const data = [
 
 		"content":
 		[
-			"https://docs.google.com/document/d/1ia5xQ6tYVkpjhxbdfSKT-5wI1yFtbch_/edit?usp=sharing&ouid=103135730421056210903&rtpof=true&sd=true",
+			"https://docs.google.com/document/d/e/2PACX-1vR-w6K7vrD3D200F7VLZGjhRQl16Nz9kj5c6OweKrnaOdRbU2hOC-xPj-ioTjaXeg/pub?embedded=true",
 			"https://drive.google.com/file/d/1RGRrtAXIcX0fPT6Rxi1mt66feyW4NDeU/view?usp=share_link",
 			"https://drive.google.com/file/d/14y7xs7zTeHlEFUgsUP-oJhVcqioTFOBP/view?usp=share_link"
 		]
