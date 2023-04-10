@@ -53,7 +53,7 @@ function createStudentElement(dataIndex){
 }
 
 
-for(let i in data2){
+for(let i in data){
     createStudentElement(i)
 }
 
