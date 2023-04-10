@@ -8,14 +8,8 @@ function createStudentElement(dataIndex){
     
 
     let profilePic = document.createElement('img');
-    let picURL = './images/profile_pictures/_null.jpeg';
+    let picURL = './images/profile_pictures/' + obj.last-name.replace(" ", "").toLowerCase() + '.jpeg';
 
-    try {
-        picURL = './images/profile_pictures/' + obj.last-name.replace(" ", "").toLowerCase() + '.jpeg';
-    } catch (error) {
-        picURL = './images/profile_pictures/_null.png';
-    }
-   
     profilePic.setAttribute('class', 'student-picture');
     profilePic.setAttribute('src', picURL)
 
@@ -45,7 +39,7 @@ function createStudentElement(dataIndex){
     itemContainer.appendChild(profilePic);
     itemContainer.appendChild(advocaciesTextContainer);
     advocaciesTextContainer.appendChild(fullName);
-    advocaciesTextContainer.appendChild(section);
+    // advocaciesTextContainer.appendChild(section);
     advocaciesTextContainer.appendChild(advocacy);
 
  
@@ -72,7 +66,7 @@ document.addEventListener('click', (e) => {
         print("successfully selected " + selected);
         let obj = getStudent(selected);
         print(obj);
-        let parsed = obj.first_name + obj.last_name + obj.section + obj.content;
+        let parsed = obj.first_name + obj.last_name + obj.content;
 
         let doc = document.createElement('iframe');
         doc.setAttribute('src', obj.content[0]);
