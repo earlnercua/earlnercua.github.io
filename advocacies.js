@@ -1,5 +1,4 @@
-import {data} from './test.js';
-import * as data2 from './Students.json';
+import {data} from './data.js';
 
 function createStudentElement(dataIndex){
     let obj = data[dataIndex]
