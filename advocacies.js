@@ -63,6 +63,7 @@ document.addEventListener('click', (e) => {
         let parsed = obj.first_name + obj.last_name + obj.content;
 
         let doc = document.createElement('iframe');
+        doc.setAttribute('class', "document");
         doc.setAttribute('src', obj.content[0]);
 
         page.textContent = parsed;
