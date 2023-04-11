@@ -59,7 +59,7 @@ document.addEventListener('click', (e) => {
     page.style.color="black";
     const el = e.target;
 
-    const classList = ["students-list-item","students-list-item", "full-name", "advocacy", "student-picture"];
+    const classList = ["students-list-item","advocacies-text-container", "full-name", "advocacy", "student-picture"];
 
     if(classList.includes(el.className)){
 
@@ -72,6 +72,7 @@ document.addEventListener('click', (e) => {
         else{
             selectedStudent = el;
         }
+
         for(let i = 0; i < allStudents.length; i++){
             allStudents[i].style.backgroundColor = "gray";
         }
