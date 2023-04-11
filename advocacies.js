@@ -81,8 +81,11 @@ document.addEventListener('click', (e) => {
         const infographic = document.createElement('iframe');
 
         essay.setAttribute('src', essayContent);
+        essay.setAttribute('class', "advocacy-content");
         video.setAttribute('src', videoContent);
+        video.setAttribute('class', "advocacy-content");
         infographic.setAttribute('src', infographicContent);
+        infographic.setAttribute('class', "advocacy-content");
 
 
         if(el.className == "advocacy-tab-btn"){
