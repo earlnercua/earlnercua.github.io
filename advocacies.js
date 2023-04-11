@@ -86,19 +86,19 @@ document.addEventListener('click', (e) => {
         video.setAttribute('src', obj.content[1]);
         infographic.setAttribute('src', obj.content[2]);
 
-       
-    }
-    if(currentDisplay != null){
-        if(el == essayTab){
-            page.appendChild(essay);
+        if(currentDisplay != null){
+            if(el == essayTab){
+                page.appendChild(essay);
+            }
+            else if(el == videoTab){
+                page.appendChild(video);
+            }
+            else if(el == infoTab){
+                page.appendChild(infographic);
+            }   
         }
-        else if(el == videoTab){
-            page.appendChild(video);
-        }
-        else if(el == infoTab){
-            page.appendChild(infographic);
-        }   
     }
+    
     
 })
 
