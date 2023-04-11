@@ -92,6 +92,9 @@ nav{
     height:auto;
 }
 
+.gradient-opaque-to-transparent{
+    background-color: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0) );
+}
 
 /* STUDENTS PAGE */
 
