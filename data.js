@@ -13,7 +13,7 @@ export const data = [
 		[
 			"https://docs.google.com/document/d/e/2PACX-1vR-w6K7vrD3D200F7VLZGjhRQl16Nz9kj5c6OweKrnaOdRbU2hOC-xPj-ioTjaXeg/pub?embedded=true",
 			"https://drive.google.com/file/d/1RGRrtAXIcX0fPT6Rxi1mt66feyW4NDeU/view?usp=share_link",
-			"https://drive.google.com/file/d/14y7xs7zTeHlEFUgsUP-oJhVcqioTFOBP/view?usp=share_link"
+			"https://drive.google.com/file/d/14y7xs7zTeHlEFUgsUP-oJhVcqioTFOBP/view?usp=sharing"
 		]
 	},
 
@@ -47,7 +47,7 @@ export const data = [
 
 		"content":
 		[
-			"https://docs.google.com/document/d/1wFz0ENcefRrt_WGbhVYGviGeN5k0hy-0/edit?usp=share_link&ouid=103135730421056210903&rtpof=true&sd=true"
+			"https://docs.google.com/document/d/e/2PACX-1vRN2MA1oIJ3eiPYqj1NE6tHAhfktHDJcjyY0WL5cHYUcUdXZ7AsSVygz2_nodesrQ/pub?embedded=true"
 		]
 	},
 
