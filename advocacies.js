@@ -52,7 +52,7 @@ let currentDisplay = null;
 let selectedStudent = null;
 let studentsListItems = document.getElementsByClassName('students-list-item');
 let selected = null;
-let previousStudent = null;
+const allStudents = document.querySelectorAll(".students-list-item");
 
 document.addEventListener('click', (e) => {
     let page = document.querySelector('.content-container');
@@ -69,7 +69,10 @@ document.addEventListener('click', (e) => {
         else{
             selectedStudent = el;
         }
-
+        for(let i = 0; i < allStudents.length; i++){
+            allStudents[i].style.backgroundColor = "gray";
+        }
+        selectedStudent.style.backgroundColor = "var(--main-accent)";
         removeAllChildren(page);
 
         print("Successfully selected " + selectedStudent.textContent);
