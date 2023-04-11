@@ -60,15 +60,16 @@ document.addEventListener('click', (e) => {
 
     if(el.className == 'students-list-item'){
        selectedStudent = el;
+       print("Successfully selected " + selected);
     }
 
     const arr = selectedStudent.querySelector('.full-name').textContent.split(', ');
     selected = arr[0];
-    print("Successfully selected" + selected);
+
     const obj = getStudent(selected);
 
     if(selectedStudent != null){
-        if(el.className == "advocacy-tab-btm"){
+        if(el.className == "advocacy-tab-btn"){
             currentDisplay = el;
 
             if(currentDisplay.id == "essay-btn"){
