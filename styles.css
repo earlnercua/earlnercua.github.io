@@ -314,6 +314,7 @@ iframe{
     background-color: white;
     border-radius: 10px;
     overflow: scroll;
+    padding-bottom: relative;
 }
 
 .advocacy-tab-container{
