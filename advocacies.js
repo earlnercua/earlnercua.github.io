@@ -101,7 +101,7 @@ document.addEventListener('click', (e) => {
                 removeAllChildren(page);
                 page.appendChild(essay);
 
-                document.getElementById("essay-btn").style.borderBottom = "var(--main-accent)"
+                document.getElementById("essay-btn").style.borderBottom = "3pt solid var(--main-accent)"
                 document.getElementById("media-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
                 document.getElementById("infographic-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
 
@@ -112,7 +112,7 @@ document.addEventListener('click', (e) => {
                 page.appendChild(media);
 
                 document.getElementById("essay-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
-                document.getElementById("media-btn").style.borderBottom = "var(--main-accent))"
+                document.getElementById("media-btn").style.borderBottom = "3pt solid var(--main-accent))"
                 document.getElementById("infographic-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
             }
             else if(currentDisplay.id == "infographic-btn"){
@@ -122,7 +122,7 @@ document.addEventListener('click', (e) => {
 
                 document.getElementById("essay-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
                 document.getElementById("media-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
-                document.getElementById("infographic-btn").style.borderBottom = "var(--main-accent)"
+                document.getElementById("infographic-btn").style.borderBottom = "3pt solid var(--main-accent)"
             }
             
 
