@@ -342,6 +342,7 @@ iframe{
     /* margin: 0 10px 0 10px; */
     align-self: center;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .advocacy-tab-btn p{
