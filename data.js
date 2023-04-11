@@ -83,8 +83,9 @@ export const data = [
 
 		"content":
 		[
-			"https://docs.google.com/document/d/1i0Hg7sUWWEDUj2czpek0qd7nQuPcWrHd/edit?usp=share_link&ouid=103135730421056210903&rtpof=true&sd=true",
-			"https://drive.google.com/file/d/1Sb402iHAUjtlytzEwM8qtKmFZcoQTn6I/view?usp=share_link"
+			"https://docs.google.com/document/d/e/2PACX-1vS6U0FGEoN6LeCLxJaygfnLvmInlblT7UaktPVjyTMokJYcb5QHBt79qh_gw0BCoA/pub?embedded=true",
+			null,
+			"https://drive.google.com/file/d/1Sb402iHAUjtlytzEwM8qtKmFZcoQTn6I/preview"
 		]
 	},
 
@@ -100,9 +101,9 @@ export const data = [
 
 		"content":
 		[
-			"https://drive.google.com/file/d/1cr5NleyF7Mz_BdwI-E7bd8yGbmDkpNO_/view?usp=share_link",
-			"https://drive.google.com/file/d/14sDouCUIKqzCL7Vfe8BQ74DZXdNoQL98/view?usp=share_link",
-			"https://drive.google.com/file/d/1_81vyjSEAOf8KNstEibejirRwO7buuEO/view?usp=share_link"
+			"https://drive.google.com/file/d/1_81vyjSEAOf8KNstEibejirRwO7buuEO/preview",
+			"https://drive.google.com/file/d/14sDouCUIKqzCL7Vfe8BQ74DZXdNoQL98/preview",
+			"https://drive.google.com/file/d/1cr5NleyF7Mz_BdwI-E7bd8yGbmDkpNO_/preview"
 		]
 	},
 
@@ -118,7 +119,9 @@ export const data = [
 
 		"content":
 		[
-			"https://drive.google.com/file/d/1UMpLb9Ux9-UTX124cmdFoMTVMU8OKBbq/view?usp=share_link"
+			"https://drive.google.com/file/d/1UMpLb9Ux9-UTX124cmdFoMTVMU8OKBbq/preview",
+			null,
+			null
 		]
 	},
 
