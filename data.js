@@ -462,11 +462,7 @@ export const data = [
 			"https://drive.google.com/file/d/1wnrf72SKAjv7ODgNRySGBoJtAck0L8hD/preview"
 		]
 
-	},
-
-	
-{
-
+	}
 ]
 
 
