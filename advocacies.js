@@ -87,13 +87,13 @@ document.addEventListener('click', (e) => {
         infographic.setAttribute('src', obj.content[2]);
 
         if(currentDisplay != null){
-            if(el == essayTab){
+            if(el == document.getElementById("essay-btn")){
                 page.appendChild(essay);
             }
-            else if(el == videoTab){
+            else if(el == document.getElementById("video-btn")){
                 page.appendChild(video);
             }
-            else if(el == infoTab){
+            else if(el == document.getElementById("infographic-btn")){
                 page.appendChild(infographic);
             }   
         }

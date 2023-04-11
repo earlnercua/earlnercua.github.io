@@ -328,6 +328,7 @@ nav{
     font-weight: 800;
     /* margin: 0 10px 0 10px; */
     align-self: center;
+    cursor: pointer;
 
 }
 
