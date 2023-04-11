@@ -99,30 +99,30 @@ document.addEventListener('click', (e) => {
             if(currentDisplay.id == "essay-btn"){
                 print("essay");
                 removeAllChildren(page);
-                page.appendChild(essay);
 
                 document.getElementById("essay-btn").style.borderBottom = "3pt solid var(--main-accent)"
                 document.getElementById("media-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
                 document.getElementById("infographic-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
-
+                page.appendChild(essay);
             }
             else if(currentDisplay.id == "media-btn"){
                 print("media");
                 removeAllChildren(page);
-                page.appendChild(media);
+
 
                 document.getElementById("essay-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
                 document.getElementById("media-btn").style.borderBottom = "3pt solid var(--main-accent)"
                 document.getElementById("infographic-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
+                page.appendChild(media);
             }
             else if(currentDisplay.id == "infographic-btn"){
                 print("info");
                 removeAllChildren(page);
-                page.appendChild(infographic);
 
                 document.getElementById("essay-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
                 document.getElementById("media-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
                 document.getElementById("infographic-btn").style.borderBottom = "3pt solid var(--main-accent)"
+                page.appendChild(infographic);
             }
             
 
