@@ -1,6 +1,6 @@
 import {data} from './data.js';
 
-alert("Hello, if you see 404 on the documents,then it means the person didn't include anything in that category. Thank you!")
+alert("Hello, if you see 404 on the documents, then it means the person didn't include anything in that category. Thank you!")
 
 function createStudentElement(dataIndex){
     let obj = data[dataIndex]
