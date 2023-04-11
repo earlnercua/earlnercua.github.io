@@ -81,7 +81,7 @@ nav{
     height: calc(var(--doc-height) - 10vh);
     width: 100%;
     display: flex;
-    margin: 10vh 0 0 0;
+    margin: 18vh 0 0 0;
     justify-content: center;
     align-items: center;
 
