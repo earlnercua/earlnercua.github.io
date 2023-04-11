@@ -247,7 +247,9 @@ export const data = [
 
 	"content":
 		[
-		"https://drive.google.com/file/d/1efyVDLK1tnM6vvq93K9nFytsC_5US9e4/view"
+		"https://drive.google.com/file/d/1efyVDLK1tnM6vvq93K9nFytsC_5US9e4/preview",
+		null,
+		null
 		]
 	},
 	
@@ -263,9 +265,9 @@ export const data = [
 
 	"content":
 		[
-		"https://drive.google.com/file/d/1e3fmDj21UIqA-cYSzWxsNK0opPBxfuHk/view",
-		"https://drive.google.com/file/d/19cTnqhduuAiAla_oH_iKsYYCV_3xc1Uj/view",
-		"https://drive.google.com/file/d/1HUu3YCZ4eb3BtERg4MtfLc2iyTDZPSBf/view"
+		"https://docs.google.com/document/d/e/2PACX-1vRms7IBWVt37rto2ea97DqMt98rdjm-uy2vQ-0HOCBjECHnd8jUf9cZzDZrJ-O56w/pub?embedded=true",
+		"https://drive.google.com/file/d/1HUu3YCZ4eb3BtERg4MtfLc2iyTDZPSBf/preview",
+		"https://drive.google.com/file/d/19cTnqhduuAiAla_oH_iKsYYCV_3xc1Uj/preview"
 		]
 	},
 
@@ -281,8 +283,12 @@ export const data = [
 
 	"content":
 		[
-		"https://drive.google.com/file/d/1JLjHnzj1-qJkiwzKzSUKAyDgS5f3aH4o/view"
-		]
+		"https://docs.google.com/document/d/e/2PACX-1vT5S7xIxcuC6l6-DkpX9swgxv6nzvVKfRoQDjZj0XTBnmY9QDcwv9gzGpPB2rxCnA/pub?embedded=true",
+		null,
+		null
+	
+	
+	]
 	},
 
 	{
@@ -297,9 +303,9 @@ export const data = [
 
 	"content":
 		[
-		"https://drive.google.com/file/d/1PTswvUaBb8gpObuxF0ObKtWmYaDx9Aet/view",
-		"https://drive.google.com/file/d/1XwnknGyFjwXzGKcDgB3IkKzGDc0kkIMa/view",
-		"https://drive.google.com/file/d/1Np-Ew9aWCqv9nY9jOAg8o44_IlfzWtjl/view"
+		"https://docs.google.com/document/d/e/2PACX-1vTdaVq8OeDvGaVtYA6UNkg4gOdBOpBLQMYzINww043I0cB_1Kv82alZ5UZlTwb8nw/pub?embedded=true",
+		"https://drive.google.com/file/d/1Np-Ew9aWCqv9nY9jOAg8o44_IlfzWtjl/preview",
+		"https://drive.google.com/file/d/1XwnknGyFjwXzGKcDgB3IkKzGDc0kkIMa/preview"
 		]
 	},
 
@@ -315,9 +321,9 @@ export const data = [
 
 		"content":
 		[
-			"https://drive.google.com/file/d/1XuQt7hOf5VLHWZJH1vNDQxDFjwgJ_ZUd/view?usp=share_link",
-			"https://drive.google.com/file/d/1NqDotQp7j7Wj7yNREEwgP6_hNdxvChIN/view?usp=share_link",
-			"https://drive.google.com/file/d/1dTIn4TtT2Iexm2NAzrrHCDV0kvlUv-Wo/view?usp=share_link"
+			"https://drive.google.com/file/d/1dTIn4TtT2Iexm2NAzrrHCDV0kvlUv-Wo/preview",
+			"https://drive.google.com/file/d/1XuQt7hOf5VLHWZJH1vNDQxDFjwgJ_ZUd/preview",
+			"https://drive.google.com/file/d/1NqDotQp7j7Wj7yNREEwgP6_hNdxvChIN/preview"
 		]
 
 	},
@@ -334,9 +340,9 @@ export const data = [
 
 		"content":
 		[
-			"https://drive.google.com/file/d/1pJ0mgk6_rrPel4ziEEp3aEbJirZrrJ6v/view?usp=share_link",
-			"https://drive.google.com/file/d/1u-PjVFmFsFOQEP18uHjrJ4mI8HTSlvkF/view?usp=share_link",
-			"https://drive.google.com/file/d/1dMaOh1xlpNxvDXMy30DWAbunMu3VtTmr/view?usp=share_link"
+			"https://drive.google.com/file/d/1pJ0mgk6_rrPel4ziEEp3aEbJirZrrJ6v/preview",
+			"https://drive.google.com/file/d/1dMaOh1xlpNxvDXMy30DWAbunMu3VtTmr/preview",
+			"https://drive.google.com/file/d/1u-PjVFmFsFOQEP18uHjrJ4mI8HTSlvkF/preview"
 		]
 
 	},
@@ -353,9 +359,9 @@ export const data = [
 
 		"content":
 		[
-			"https://drive.google.com/file/d/15RRdZhMIfwBF-2ix8G3qL8GXmt78BzzI/view?usp=share_link",
-			"https://drive.google.com/file/d/1yEnsiwZU2-0nLyAYl1RCbBf8dgzSgeNy/view?usp=share_link",
-			"https://drive.google.com/file/d/1m52FCiW9GdRdgZiL30qgfW4MgpNDaZAn/view?usp=share_link"
+			"https://drive.google.com/file/d/15RRdZhMIfwBF-2ix8G3qL8GXmt78BzzI/preview",
+			"https://drive.google.com/file/d/1m52FCiW9GdRdgZiL30qgfW4MgpNDaZAn/preview",
+			"https://drive.google.com/file/d/1yEnsiwZU2-0nLyAYl1RCbBf8dgzSgeNy/preview"
 		]
 
 	},
@@ -372,9 +378,9 @@ export const data = [
 
 		"content":
 		[
-			"https://drive.google.com/file/d/1L4-cqe-Yj0hdR8y46cw1BptTHQA_XO0R/view?usp=share_link",
-			"https://drive.google.com/file/d/1VyewQJ--8j22Ec5GXJrNBlJSK3-p_oEn/view?usp=share_link",
-			"https://drive.google.com/file/d/1kBD-pTZG81uA8bIlI4OFO5uStLFFA7Sx/view?usp=share_link"
+			"https://drive.google.com/file/d/1VyewQJ--8j22Ec5GXJrNBlJSK3-p_oEn/preview",
+			"https://drive.google.com/file/d/1L4-cqe-Yj0hdR8y46cw1BptTHQA_XO0R/preview",
+			"https://drive.google.com/file/d/1kBD-pTZG81uA8bIlI4OFO5uStLFFA7Sx/preview"
 		]
 
 
@@ -392,9 +398,9 @@ export const data = [
 
 		"content":
 		[
-			"https://drive.google.com/file/d/1uuM7s-mxCXP3J-dHkxsQso9Vq48G86fD/view?usp=share_link",
-			"https://drive.google.com/file/d/1USDyRDwwDVzc2XA4bk-PNQT6T-9qk7rr/view?usp=share_link",
-			"https://drive.google.com/file/d/1ZdCPDZyadgI4YLTGu4x8XsxgyfH-_-6-/view?usp=share_link"
+			"https://drive.google.com/file/d/1uuM7s-mxCXP3J-dHkxsQso9Vq48G86fD/preview",
+			"https://drive.google.com/file/d/1ZdCPDZyadgI4YLTGu4x8XsxgyfH-_-6-/preview",
+			"https://drive.google.com/file/d/1USDyRDwwDVzc2XA4bk-PNQT6T-9qk7rr/preview"
 		]
 
 
@@ -412,9 +418,9 @@ export const data = [
 
 		"content":
 		[
-			"https://drive.google.com/file/d/1POZv6jwHajzA_CP-3ASg-nYn1IxczSii/view?usp=share_link",
-			"https://drive.google.com/file/d/1d5E4TK7sMzpQRKgxhP1zYJkcPs8cH9is/view?usp=share_link",
-			"https://drive.google.com/file/d/1oT9JuFTuqn3o4jR6TjvKWa0s3HdVxu85/view?usp=share_link"
+			"https://drive.google.com/file/d/1POZv6jwHajzA_CP-3ASg-nYn1IxczSii/preview",
+			"https://drive.google.com/file/d/1d5E4TK7sMzpQRKgxhP1zYJkcPs8cH9is/preview",
+			"https://drive.google.com/file/d/1wnqKxX8T5DUmfR-YuJwu1QOHc9IWRG4p/preview"
 		]
 
 
@@ -451,174 +457,16 @@ export const data = [
 
 		"content":
 		[
-			"https://drive.google.com/file/d/1wnrf72SKAjv7ODgNRySGBoJtAck0L8hD/view?usp=share_link",
-			"https://drive.google.com/file/d/1KzwudQbYQmSIU5by7fcWvL_l93OmM17L/view?usp=share_link",
-			"https://drive.google.com/file/d/1Y3X9VKHhUiAOBErYg5JXYKTAL2qR86gr/view?usp=share_link"
+			"https://drive.google.com/file/d/1KzwudQbYQmSIU5by7fcWvL_l93OmM17L/preview",
+			"https://drive.google.com/file/d/1Y3X9VKHhUiAOBErYg5JXYKTAL2qR86gr/preview",
+			"https://drive.google.com/file/d/1wnrf72SKAjv7ODgNRySGBoJtAck0L8hD/preview"
 		]
 
 	},
 
-	{
-
-	"last_name": "Gonzales",
-
-	"first_name": "Nathaniel",
-
-	"middle-initial": null,
-
-	"advocacy": ["Unity","Women's Rights", "Justice"],
-
-	"content":
-		[
-		"https://drive.google.com/drive/folders/1NJGpWQ7rACfCEf3-NY-wVTYNJ2r8hjnW",
-		null,
-		null
-		]
-},
-
+	
 {
 
-	"last_name": "Gramonte",
-
-	"first_name": "Aizer",
-
-	"middle-initial": "A.",
-
-	"advocacy": "Gender Equality",
-
-	"content":
-		[
-		"https://drive.google.com/file/d/1PAOYtS5MmYfMRZMdsW5NvP5UT_7877n6/view",	
-		"https://drive.google.com/file/d/1L39pJC3iR4SDCEMWNx8NQptJSDM52ouL/view",
-		"https://drive.google.com/file/d/1JE7zemxU4NlrIG-yAZH4rL8wNWl0SUmC/view"
-		]
-},
-
-{
-
-	"last_name":"Immaculata" ,
-
-	"first_name": "Noel",
-
-	"middle-initial": "C.",
-
-	"advocacy": "Gender Equality",
-
-	"content":
-		[
-		"https://drive.google.com/file/d/1YQdHBu1F9gsZkIwg6N99udgSNZWURBM8/view",	
-		"https://drive.google.com/file/d/1KGgF42OKrzU9M7gRWIoI1_82VMB3Xquk/view",
-		"https://drive.google.com/file/d/1_NajCWw7UfAar2dxtQ5bLdfZK3-5re00/view"
-		]
-},
-
-{
-
-	"last_name":"Lacra",
-
-	"first_name":"Amandy",
-
-	"middle-initial": null,
-
-	"advocacy": "Saving Marine Life",
-
-	"content":
-		[
-		"https://drive.google.com/file/d/1v0e7LGv7dmWw_B4qh16Xld9Yyq_fsrXB/view",
-		"https://drive.google.com/file/d/1D2MOd_LJXp3WpwTldaD76TyITiZztpIV/view",
-		"https://drive.google.com/file/d/1OSCqbBepVr-6lot7hzTGgr_X3MggC9-E/view"
-		]
-},
-
-{
-
-	"last_name":"Lanto",
-
-	"first_name":"Josh",
-
-	"middle-initial": "M.",
-
-	"advocacy": "Pet Adoption",
-
-	"content":
-		[
-		"https://drive.google.com/file/d/1wXShxZuGVx_PB__r8l9f3MqR9DSIYiel/view",
-		"https://drive.google.com/file/d/1Nfct-_5z4HAY4lM5xFRlYHcLU0wsItaa/view",
-		"https://drive.google.com/file/d/1OqI2fuS4jybobmd9RP8c4AwMZHIhiCDU/view"
-		]
-},
-
-{
-
-	"last_name": "Lu",
-
-	"first_name": "Grant",
-
-	"middle-initial": "G.",
-
-	"advocacy": "I Believe It is Missing",
-
-	"content":
-		[
-		"https://drive.google.com/file/d/1efyVDLK1tnM6vvq93K9nFytsC_5US9e4/view",
-		null,
-		null
-		]
-},
-
-{
-
-	"last_name":"Macuja",
-
-	"first_name":"Angelo",
-
-	"middle-initial":"R.",
-
-	"advocacy":"Climate Change",
-
-	"content":
-		[
-		"https://drive.google.com/file/d/1e3fmDj21UIqA-cYSzWxsNK0opPBxfuHk/view",	
-		"https://drive.google.com/file/d/19cTnqhduuAiAla_oH_iKsYYCV_3xc1Uj/view",
-		"https://drive.google.com/file/d/1HUu3YCZ4eb3BtERg4MtfLc2iyTDZPSBf/view"
-		]
-},
-
-{
-
-	"last_name": "Martinez" ,
-
-	"first_name": "Nebochadnezzar" ,
-
-	"middle-initial": "C.",
-
-	"advocacy": "Mental Health",
-
-	"content":
-		[
-		"https://drive.google.com/file/d/1JLjHnzj1-qJkiwzKzSUKAyDgS5f3aH4o/view",	
-		null,
-		null
-		]
-},
-
-{
-
-	"last_name": "Mendioro" ,
-
-	"first_name": "Anthony",
-
-	"middle-initial": null,
-
-	"advocacy": "Mental Health Awareness",
-
-	"content":
-		[
-		"https://drive.google.com/file/d/1PTswvUaBb8gpObuxF0ObKtWmYaDx9Aet/view",	
-		"https://drive.google.com/file/d/1XwnknGyFjwXzGKcDgB3IkKzGDc0kkIMa/view",
-		"https://drive.google.com/file/d/1Np-Ew9aWCqv9nY9jOAg8o44_IlfzWtjl/view"
-		]
-}
 ]
 
 
