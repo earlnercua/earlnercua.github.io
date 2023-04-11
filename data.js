@@ -47,7 +47,9 @@ export const data = [
 
 		"content":
 		[
-			"https://docs.google.com/document/d/e/2PACX-1vRN2MA1oIJ3eiPYqj1NE6tHAhfktHDJcjyY0WL5cHYUcUdXZ7AsSVygz2_nodesrQ/pub?embedded=true"
+			"https://docs.google.com/document/d/e/2PACX-1vRN2MA1oIJ3eiPYqj1NE6tHAhfktHDJcjyY0WL5cHYUcUdXZ7AsSVygz2_nodesrQ/pub?embedded=true",
+			null,
+			null
 		]
 	},
 
@@ -63,8 +65,9 @@ export const data = [
 
 		"content":
 		[
-			"https://drive.google.com/file/d/1imck5sDBhwN-ydGW5O_A4r66qsuO7WcG/view?usp=share_link",
-			"https://drive.google.com/file/d/1QisEaC7J1SB8y_3yG20f81pNyPTAS6s-/view?usp=share_link"
+			"https://drive.google.com/file/d/1imck5sDBhwN-ydGW5O_A4r66qsuO7WcG/preview",
+			null,
+			"https://drive.google.com/file/d/1QisEaC7J1SB8y_3yG20f81pNyPTAS6s-/preview"
 		]
 	},
 
