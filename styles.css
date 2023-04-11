@@ -344,6 +344,10 @@ iframe{
     cursor: pointer;
 }
 
+.advocacy-tab-btn p{
+    color: var(--main-accent);
+}
+
 .advocacy-content{
     width: 100%;
     height: 100%;
