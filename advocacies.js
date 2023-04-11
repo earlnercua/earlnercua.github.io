@@ -60,7 +60,7 @@ document.addEventListener('click', (e) => {
 
     if(el.className == 'students-list-item'){
        selectedStudent = el;
-       print("Successfully selected " + selected);
+       print("Successfully selected " + selectedStudent.textContent);
     }
 
     const arr = selectedStudent.querySelector('.full-name').textContent.split(', ');
@@ -69,17 +69,34 @@ document.addEventListener('click', (e) => {
     const obj = getStudent(selected);
 
     if(selectedStudent != null){
+
+        const essayContent = obj.content[0];
+        const videoContent = obj.content[1];
+        const infographicContent = obj.content[2];
+
+        const essay = document.createElement('iframe');
+        const video = document.createElement('video');
+        const infographic = document.createElement('img');
+
+        essay.setAttribute('src', essayContent);
+        video.setAttribute('src', videoContent);
+        infographic.setAttribute('src', infographicContent);
+
+
         if(el.className == "advocacy-tab-btn"){
             currentDisplay = el;
 
             if(currentDisplay.id == "essay-btn"){
                 print("essay");
+                page.appendChild(essay);
             }
             else if(currentDisplay.id == "video-btn"){
                 print("video");
+                page.appendChild(video);
             }
             else if(currentDisplay.id == "infographic-btn"){
                 print("info");
+                page.appendChild(infographic);
             }
             
 
