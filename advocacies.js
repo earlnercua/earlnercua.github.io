@@ -59,8 +59,9 @@ document.addEventListener('click', (e) => {
     const el = e.target;
 
     if(el.className == 'students-list-item'){
-       selectedStudent = el;
-       print("Successfully selected " + selectedStudent.textContent);
+        removeAllChildren(page);
+        selectedStudent = el;
+        print("Successfully selected " + selectedStudent.textContent);
 
         document.getElementById("essay-btn").style.borderBottom = "3pt solid var(--main-accent)"
         document.getElementById("media-btn").style.borderBottom = "3pt solid var(--main-accent)"
@@ -74,7 +75,7 @@ document.addEventListener('click', (e) => {
 
     if(selectedStudent != null){
 
-        removeAllChildren(page);
+
 
         const essayContent = obj.content[0];
         const mediaContent = obj.content[1];
@@ -100,6 +101,7 @@ document.addEventListener('click', (e) => {
                 removeAllChildren(page);
                 page.appendChild(essay);
 
+                document.getElementById("essay-btn").style.borderBottom = "var(--main-accent)"
                 document.getElementById("media-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
                 document.getElementById("infographic-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
 
@@ -110,6 +112,7 @@ document.addEventListener('click', (e) => {
                 page.appendChild(media);
 
                 document.getElementById("essay-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
+                document.getElementById("media-btn").style.borderBottom = "var(--main-accent))"
                 document.getElementById("infographic-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
             }
             else if(currentDisplay.id == "infographic-btn"){
@@ -119,6 +122,7 @@ document.addEventListener('click', (e) => {
 
                 document.getElementById("essay-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
                 document.getElementById("media-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
+                document.getElementById("infographic-btn").style.borderBottom = "var(--main-accent)"
             }
             
 
