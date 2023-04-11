@@ -87,42 +87,10 @@ nav{
     background-color: var(--main-accent);
 }
 
-.gallery-screen{
-    height: var(--doc-height);
-    width: var(--doc-width);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
+.home-main-photo{
+    width:100%;
+    height:auto;
 }
-
-.gallery-container{
-    display: flex;
-    flex-direction: row;
-    height: calc(var(--doc-height) * 0.5);
-    width: var(--doc-width);
-    justify-content: left;
-    align-items: center;
-    overflow:scroll;
-    background-color: lightgray;
-}
-
-.gallery-header{
-    font-weight: 500;
-    color: black;
-    margin: 0 0 0 10px
-}
-
-.gallery-item{
-    height: 80%;
-    width: 200px;
-    flex-shrink: 0;
-    margin: 0 0 0 10px;
-    border-radius: 10px;
-    background-color: gray;
-    transition: 2s;
-}
-
 
 
 /* STUDENTS PAGE */
@@ -283,7 +251,7 @@ iframe{
     /* order: 1; */
 
     margin: 0 10px 0 10px;
-    border: 1px solid black; 
+    border: 3px solid black; 
     border-radius: 100%;
 
 }
