@@ -323,8 +323,6 @@ iframe{
     justify-content: space-evenly;
     flex-wrap: wrap;
 
-    border-bottom: 3pt solid var(--main-accent);
-
 }
 
 .advocacy-tab-btn{
@@ -335,6 +333,7 @@ iframe{
     align-self: center;
     cursor: pointer;
 
+    border-bottom: 3pt solid var(--main-accent);
 }
 
 .advocacy-content{
