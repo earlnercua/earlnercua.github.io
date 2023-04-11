@@ -1,5 +1,7 @@
 import {data} from './data.js';
 
+alert("Hello, if you see 404 on the documents,")
+
 function createStudentElement(dataIndex){
     let obj = data[dataIndex]
 
@@ -66,7 +68,7 @@ document.addEventListener('click', (e) => {
         if(classList.includes(el.className) && el.className != classList[0] && el.className != classList[1]){
             selectedStudent = el.parentElement.parentElement;
         }
-        else if(el.className == classList[1]){
+        else if(el.className == classList[1] || el.className == classList[4]){
             selectedStudent = el.parentElement;
         }
         else{
