@@ -55,7 +55,7 @@ let selected = null;
 let previousStudent = null;
 
 document.addEventListener('click', (e) => {
-    let page = document.querySelector('.advocacy-viewer-container');
+    let page = document.querySelector('.content-container');
     page.style.color="black";
     const el = e.target;
 
