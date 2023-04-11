@@ -52,17 +52,33 @@ let currentDisplay = null;
 let selectedStudent = null;
 let studentsListItems = document.getElementsByClassName('students-list-item');
 let selected = null;
+let previousStudent = null;
 
 document.addEventListener('click', (e) => {
     let page = document.querySelector('.advocacy-viewer-container');
     page.style.color="black";
     const el = e.target;
 
-    if(el.className == 'students-list-item'){
-        removeAllChildren(page);
-        selectedStudent = el;
-        print("Successfully selected " + selectedStudent.textContent);
+    const classList = ["students-list-item", "full-name", "advocacy", "student-picture"];
 
+    if(classList.includes(e.className)){
+
+        if(classList.includes(e.className) && el.className != "students-list-item"){
+            selectedStudent = el.parentElement;
+        }
+        else{
+            selectedStudent = el;
+        }
+
+        removeAllChildren(page);
+
+        print("Successfully selected " + selectedStudent.textContent);
+        
+
+
+
+
+        //RESET
         document.getElementById("essay-btn").style.borderBottom = "3pt solid var(--main-accent)"
         document.getElementById("media-btn").style.borderBottom = "3pt solid var(--main-accent)"
         document.getElementById("infographic-btn").style.borderBottom = "3pt solid var(--main-accent)"
