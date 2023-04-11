@@ -70,6 +70,8 @@ document.addEventListener('click', (e) => {
 
     if(selectedStudent != null){
 
+        removeAllChildren(page);
+
         const essayContent = obj.content[0];
         const videoContent = obj.content[1];
         const infographicContent = obj.content[2];
@@ -88,14 +90,18 @@ document.addEventListener('click', (e) => {
 
             if(currentDisplay.id == "essay-btn"){
                 print("essay");
+                removeAllChildren(page);
                 page.appendChild(essay);
+
             }
             else if(currentDisplay.id == "video-btn"){
                 print("video");
+                removeAllChildren(page);
                 page.appendChild(video);
             }
             else if(currentDisplay.id == "infographic-btn"){
                 print("info");
+                removeAllChildren(page);
                 page.appendChild(infographic);
             }
             
