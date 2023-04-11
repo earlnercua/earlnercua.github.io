@@ -137,9 +137,9 @@ export const data = [
 
 		"content":
 		[
-			"https://drive.google.com/file/d/1fWr3pBCYkL83EuRN9rR8J5nDMNHu2_OY/view?usp=share_link",
-			"https://drive.google.com/file/d/1K-K2kgfkKUVp0dWiC8E5hD9X5xTNgmQ1/view?usp=share_link",
-			"https://drive.google.com/file/d/1U-872MNZj8MnMlUf8jtN_075Qag37YIg/view?usp=share_link"
+			"https://drive.google.com/file/d/1fWr3pBCYkL83EuRN9rR8J5nDMNHu2_OY/preview",
+			"https://drive.google.com/file/d/1K-K2kgfkKUVp0dWiC8E5hD9X5xTNgmQ1/preview",
+			"https://drive.google.com/file/d/1U-872MNZj8MnMlUf8jtN_075Qag37YIg/preview"
 		]
 
 	},
@@ -156,7 +156,9 @@ export const data = [
 
 	"content":
 		[
-		"https://drive.google.com/drive/folders/1NJGpWQ7rACfCEf3-NY-wVTYNJ2r8hjnW"
+			"https://drive.google.com/file/d/137ecMCqQDaX0FhXWRArSGatAf4eBMDGH/preview",
+			null,
+			null
 		]
 	},
 
@@ -172,9 +174,9 @@ export const data = [
 
 	"content":
 		[
-		"https://drive.google.com/file/d/1PAOYtS5MmYfMRZMdsW5NvP5UT_7877n6/view",
-		"https://drive.google.com/file/d/1L39pJC3iR4SDCEMWNx8NQptJSDM52ouL/view",
-		"https://drive.google.com/file/d/1JE7zemxU4NlrIG-yAZH4rL8wNWl0SUmC/view"
+		"https://docs.google.com/document/d/e/2PACX-1vTbHAUGdY6dSMp2V64Op0iU3hx3pJOkilMVKM4tYbeYtPpR_YmpTpDR68KTmFtsZQ/pub?embedded=true",
+		"https://drive.google.com/file/d/1JE7zemxU4NlrIG-yAZH4rL8wNWl0SUmC/preview",
+		"https://drive.google.com/file/d/1L39pJC3iR4SDCEMWNx8NQptJSDM52ouL/preview",
 		]
 	},
 
@@ -190,9 +192,9 @@ export const data = [
 
 	"content":
 		[
-		"https://drive.google.com/file/d/1YQdHBu1F9gsZkIwg6N99udgSNZWURBM8/view",
-		"https://drive.google.com/file/d/1KGgF42OKrzU9M7gRWIoI1_82VMB3Xquk/view",
-		"https://drive.google.com/file/d/1_NajCWw7UfAar2dxtQ5bLdfZK3-5re00/view"
+		"https://drive.google.com/file/d/1YQdHBu1F9gsZkIwg6N99udgSNZWURBM8/preview",
+		null,
+		"https://drive.google.com/file/d/1_NajCWw7UfAar2dxtQ5bLdfZK3-5re00/preview"
 		]
 	},
 
@@ -208,9 +210,9 @@ export const data = [
 
 	"content":
 		[
-		"https://drive.google.com/file/d/1v0e7LGv7dmWw_B4qh16Xld9Yyq_fsrXB/view",
-		"https://drive.google.com/file/d/1D2MOd_LJXp3WpwTldaD76TyITiZztpIV/view",
-		"https://drive.google.com/file/d/1OSCqbBepVr-6lot7hzTGgr_X3MggC9-E/view"
+		"https://drive.google.com/file/d/1v0e7LGv7dmWw_B4qh16Xld9Yyq_fsrXB/preview",
+		"https://drive.google.com/file/d/1OSCqbBepVr-6lot7hzTGgr_X3MggC9-E/preview",
+		"https://drive.google.com/file/d/1D2MOd_LJXp3WpwTldaD76TyITiZztpIV/preview"
 		]
 	},
 
@@ -225,11 +227,12 @@ export const data = [
 	"advocacy": "Pet Adoption",
 
 	"content":
-		[
-		"https://drive.google.com/file/d/1wXShxZuGVx_PB__r8l9f3MqR9DSIYiel/view",
-		"https://drive.google.com/file/d/1Nfct-_5z4HAY4lM5xFRlYHcLU0wsItaa/view",
-		"https://drive.google.com/file/d/1OqI2fuS4jybobmd9RP8c4AwMZHIhiCDU/view"
+		[,
+		"https://drive.google.com/file/d/1Nfct-_5z4HAY4lM5xFRlYHcLU0wsItaa/preview",
+		"https://drive.google.com/file/d/1OqI2fuS4jybobmd9RP8c4AwMZHIhiCDU/preview",
+		"https://drive.google.com/file/d/1wXShxZuGVx_PB__r8l9f3MqR9DSIYiel/preview"
 		]
+		
 	},
 
 	{
