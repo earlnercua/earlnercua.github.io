@@ -73,17 +73,17 @@ document.addEventListener('click', (e) => {
         removeAllChildren(page);
 
         const essayContent = obj.content[0];
-        const videoContent = obj.content[1];
+        const mediaContent = obj.content[1];
         const infographicContent = obj.content[2];
 
         const essay = document.createElement('iframe');
-        const video = document.createElement('video');
+        const media = document.createElement('iframe');
         const infographic = document.createElement('iframe');
 
         essay.setAttribute('src', essayContent);
         essay.setAttribute('class', "advocacy-content");
-        video.setAttribute('src', videoContent);
-        video.setAttribute('class', "advocacy-content");
+        media.setAttribute('src', mediaContent);
+        media.setAttribute('class', "advocacy-content");
         infographic.setAttribute('src', infographicContent);
         infographic.setAttribute('class', "advocacy-content");
 
@@ -97,10 +97,10 @@ document.addEventListener('click', (e) => {
                 page.appendChild(essay);
 
             }
-            else if(currentDisplay.id == "video-btn"){
-                print("video");
+            else if(currentDisplay.id == "media-btn"){
+                print("media");
                 removeAllChildren(page);
-                page.appendChild(video);
+                page.appendChild(media);
             }
             else if(currentDisplay.id == "infographic-btn"){
                 print("info");
@@ -131,17 +131,17 @@ document.addEventListener('click', (e) => {
 
     //     const tabsContainer = document.querySelector('.advocacy-tab-container');
     //     const essayTab = tabsArray[0];
-    //     const videoTab = tabsArray[1];
+    //     const mediaTab = tabsArray[1];
     //     const infoTab = tabsArray[2];
     //     const essay = document.createElement('iframe');
-    //     const video = document.createElement('video');
+    //     const media = document.createElement('media');
     //     const infographic = document.createElement('img');
 
 
         
     //     essay.setAttribute('class', "student-essay");
     //     essay.setAttribute('src', obj.content[0]);
-    //     video.setAttribute('src', obj.content[1]);
+    //     media.setAttribute('src', obj.content[1]);
     //     infographic.setAttribute('src', obj.content[2]);
 
 
@@ -149,8 +149,8 @@ document.addEventListener('click', (e) => {
     //         if(el == document.getElementById("essay-btn")){
     //             page.appendChild(essay);
     //         }
-    //         else if(el == document.getElementById("video-btn")){
-    //             page.appendChild(video);
+    //         else if(el == document.getElementById("media-btn")){
+    //             page.appendChild(media);
     //         }
     //         else if(el == document.getElementById("infographic-btn")){
     //             page.appendChild(infographic);
