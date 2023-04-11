@@ -62,9 +62,9 @@ document.addEventListener('click', (e) => {
        selectedStudent = el;
        print("Successfully selected " + selectedStudent.textContent);
 
-        document.querySelector("#essay-btn").style.borderBottom = "3pt solid var(--main-accent);"
-        document.querySelector("#media-btn").style.borderBottom = "3pt solid var(--main-accent);"
-        document.querySelector("#infographic-btn").style.borderBottom = "3pt solid var(--main-accent);"
+        document.getElementById("essay-btn").style.borderBottom = "3pt solid var(--main-accent)"
+        document.getElementById("media-btn").style.borderBottom = "3pt solid var(--main-accent)"
+        document.getElementById("infographic-btn").style.borderBottom = "3pt solid var(--main-accent)"
     }
 
     const arr = selectedStudent.querySelector('.full-name').textContent.split(', ');
@@ -100,8 +100,8 @@ document.addEventListener('click', (e) => {
                 removeAllChildren(page);
                 page.appendChild(essay);
 
-                document.querySelector("#media-btn").style.borderBottom = "3pt solid rgb(120, 50, 100);"
-                document.querySelector("#infographic-btn").style.borderBottom = "3pt solid rgb(120, 50, 100);"
+                document.getElementById("media-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
+                document.getElementById("infographic-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
 
             }
             else if(currentDisplay.id == "media-btn"){
@@ -109,16 +109,16 @@ document.addEventListener('click', (e) => {
                 removeAllChildren(page);
                 page.appendChild(media);
 
-                document.querySelector("#essay-btn").style.borderBottom = "3pt solid rgb(120, 50, 100);"
-                document.querySelector("#infographic-btn").style.borderBottom = "3pt solid rgb(120, 50, 100);"
+                document.getElementById("essay-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
+                document.getElementById("infographic-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
             }
             else if(currentDisplay.id == "infographic-btn"){
                 print("info");
                 removeAllChildren(page);
                 page.appendChild(infographic);
 
-                document.querySelector("#essay-btn").style.borderBottom = "3pt solid rgb(120, 50, 100);"
-                document.querySelector("#media-btn").style.borderBottom = "3pt solid rgb(120, 50, 100);"
+                document.getElementById("essay-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
+                document.getElementById("media-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
             }
             
 
