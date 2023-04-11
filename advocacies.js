@@ -49,7 +49,7 @@ for(let i in data){
 }
 
 let currentDisplay = null;
-
+let selectedStudent = null;
 let studentsListItems = document.getElementsByClassName('students-list-item');
 let selected = null;
 
@@ -59,45 +59,77 @@ document.addEventListener('click', (e) => {
     const el = e.target;
 
     if(el.className == 'students-list-item'){
-        currentDisplay = el;
-        removeAllChildren(page);
+       selectedStudent = el;
+    }
 
-        let selectedArr = el.querySelector('.full-name').textContent.split(", ");
-        selected = selectedArr[0];
-        print("successfully selected " + selected);
-        let obj = getStudent(selected);
-        print(obj);
-        let parsed = obj.first_name + obj.last_name + obj.content;
+    const arr = selectedStudent.querySelector('.full-name').textContent.split(', ');
+    selected = arr[0];
+    print("Successfully selected" + selected);
+    const obj = getStudent(selected);
 
-        const tabsArray = document.querySelectorAll(".advocacy-tab-btn");
+    if(selectedStudent != null){
+        if(el.className == "advocacy-tab-btm"){
+            currentDisplay = el;
 
-        const tabsContainer = document.querySelector('.advocacy-tab-container');
-        const essayTab = tabsArray[0];
-        const videoTab = tabsArray[1];
-        const infoTab = tabsArray[2];
-        const essay = document.createElement('iframe');
-        const video = document.createElement('video');
-        const infographic = document.createElement('img');
+            if(currentDisplay.id == "essay-btn"){
+                print("essay");
+            }
+            else if(currentDisplay.id == "video-btn"){
+                print("video");
+            }
+            else if(currentDisplay.id == "infographic-btn"){
+                print("info");
+            }
+            
+
+
+
+        }
+    }
+
+
+
+    // if(el.className == 'students-list-item'){
+    //     currentDisplay = el;
+    //     removeAllChildren(page);
+
+    //     let selectedArr = el.querySelector('.full-name').textContent.split(", ");
+    //     selected = selectedArr[0];
+    //     print("successfully selected " + selected);
+    //     let obj = getStudent(selected);
+    //     print(obj);
+    //     let parsed = obj.first_name + obj.last_name + obj.content;
+
+    //     const tabsArray = document.querySelectorAll(".advocacy-tab-btn");
+
+    //     const tabsContainer = document.querySelector('.advocacy-tab-container');
+    //     const essayTab = tabsArray[0];
+    //     const videoTab = tabsArray[1];
+    //     const infoTab = tabsArray[2];
+    //     const essay = document.createElement('iframe');
+    //     const video = document.createElement('video');
+    //     const infographic = document.createElement('img');
 
 
         
-        essay.setAttribute('class', "student-essay");
-        essay.setAttribute('src', obj.content[0]);
-        video.setAttribute('src', obj.content[1]);
-        infographic.setAttribute('src', obj.content[2]);
+    //     essay.setAttribute('class', "student-essay");
+    //     essay.setAttribute('src', obj.content[0]);
+    //     video.setAttribute('src', obj.content[1]);
+    //     infographic.setAttribute('src', obj.content[2]);
 
-        if(currentDisplay != null){
-            if(el == document.getElementById("essay-btn")){
-                page.appendChild(essay);
-            }
-            else if(el == document.getElementById("video-btn")){
-                page.appendChild(video);
-            }
-            else if(el == document.getElementById("infographic-btn")){
-                page.appendChild(infographic);
-            }   
-        }
-    }
+
+    //     if(currentDisplay != null){
+    //         if(el == document.getElementById("essay-btn")){
+    //             page.appendChild(essay);
+    //         }
+    //         else if(el == document.getElementById("video-btn")){
+    //             page.appendChild(video);
+    //         }
+    //         else if(el == document.getElementById("infographic-btn")){
+    //             page.appendChild(infographic);
+    //         }   
+    //     }
+    // }
     
     
 })
