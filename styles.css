@@ -78,7 +78,7 @@ nav{
 
 .home-container{
     height: calc(var(--doc-height) - 10vh);
-    width: var(--doc-width);
+    width: 100%;
     display: flex;
     margin: 10vh 0 0 0;
     justify-content: center;
