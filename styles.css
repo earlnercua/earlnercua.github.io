@@ -351,12 +351,12 @@ iframe{
 
 .advocacy-content{
     display: flex;
-    width: 60vw;
+    width: 48vw;
     height: 60vh;
     align-self: flex-end;
     justify-self: center;
     border-radius: 10px;
-    margin: 0 0 0 3.5vw;
+    margin: 1vh 0 0 10vw;
 }
 
 /* ABOUT PAGE */
