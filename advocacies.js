@@ -9,10 +9,9 @@ function createStudentElement(dataIndex){
 
     let profilePic = document.createElement('img');
     let picURL = './images/profile_pictures';
-    let tryURL = new File([],'./images/profile_pictures/' + obj.last_name.replace(" ", "").toLowerCase() + '.jpeg', {
-        type: "image"
-    });
-
+    let aaa = './images/profile_pictures/' + obj.last_name.replace(" ", "").toLowerCase() + '.jpeg'
+    let tryURL = new File(aaa);
+   
 
     if(tryURL.exists()){
         picURL = tryURL;
