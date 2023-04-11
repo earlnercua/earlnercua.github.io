@@ -356,7 +356,7 @@ iframe{
     align-self: flex-end;
     justify-self: center;
     border-radius: 10px;
-    margin: 1vh 0 0 10vw;
+    margin: 1vh 0 0 0;
 }
 
 .content-container{
