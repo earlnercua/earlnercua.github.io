@@ -59,11 +59,14 @@ document.addEventListener('click', (e) => {
     page.style.color="black";
     const el = e.target;
 
-    const classList = ["students-list-item", "full-name", "advocacy", "student-picture"];
+    const classList = ["students-list-item","students-list-item", "full-name", "advocacy", "student-picture"];
 
     if(classList.includes(el.className)){
 
-        if(classList.includes(el.className) && el.className != classList[0]){
+        if(classList.includes(el.className) && el.className != classList[0] && el.className != classList[1]){
+            selectedStudent = el.parentElement.parentElement;
+        }
+        else if(el.className == classList[1]){
             selectedStudent = el.parentElement;
         }
         else{
