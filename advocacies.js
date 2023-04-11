@@ -93,7 +93,7 @@ document.addEventListener('click', (e) => {
         infographic.setAttribute('class', "advocacy-content");
 
 
-        if(el.className == "advocacy-tab-btn"){
+        if(el.className == "btn-container advocacy-tab-btn"){
             currentDisplay = el;
 
             if(currentDisplay.id == "essay-btn"){
