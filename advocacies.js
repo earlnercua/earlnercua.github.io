@@ -100,9 +100,9 @@ document.addEventListener('click', (e) => {
                 print("essay");
                 removeAllChildren(page);
 
-                document.getElementById("essay-btn").style.borderBottom = "3pt solid var(--main-accent)"
-                document.getElementById("media-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
-                document.getElementById("infographic-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
+                document.getElementById("essay-btn").style.borderBottom = "5pt solid var(--main-accent)"
+                document.getElementById("media-btn").style.borderBottom = "5pt solid rgb(120, 50, 100)"
+                document.getElementById("infographic-btn").style.borderBottom = "5pt solid rgb(120, 50, 100)"
                 page.appendChild(essay);
             }
             else if(currentDisplay.id == "media-btn"){
@@ -110,18 +110,18 @@ document.addEventListener('click', (e) => {
                 removeAllChildren(page);
 
 
-                document.getElementById("essay-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
-                document.getElementById("media-btn").style.borderBottom = "3pt solid var(--main-accent)"
-                document.getElementById("infographic-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
+                document.getElementById("essay-btn").style.borderBottom = "5pt solid rgb(120, 50, 100)"
+                document.getElementById("media-btn").style.borderBottom = "5pt solid var(--main-accent)"
+                document.getElementById("infographic-btn").style.borderBottom = "5pt solid rgb(120, 50, 100)"
                 page.appendChild(media);
             }
             else if(currentDisplay.id == "infographic-btn"){
                 print("info");
                 removeAllChildren(page);
 
-                document.getElementById("essay-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
-                document.getElementById("media-btn").style.borderBottom = "3pt solid rgb(120, 50, 100)"
-                document.getElementById("infographic-btn").style.borderBottom = "3pt solid var(--main-accent)"
+                document.getElementById("essay-btn").style.borderBottom = "5pt solid rgb(120, 50, 100)"
+                document.getElementById("media-btn").style.borderBottom = "5pt solid rgb(120, 50, 100)"
+                document.getElementById("infographic-btn").style.borderBottom = "5pt solid var(--main-accent)"
                 page.appendChild(infographic);
             }
             
