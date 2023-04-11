@@ -61,7 +61,7 @@ document.addEventListener('click', (e) => {
 
     const classList = ["students-list-item", "full-name", "advocacy", "student-picture"];
 
-    if(classList.includes(e.className)){
+    if(classList.includes(el.className)){
 
         if(classList.includes(e.className) && el.className != classList[0]){
             selectedStudent = el.parentElement;
