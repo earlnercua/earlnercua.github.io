@@ -12,8 +12,8 @@ export const data = [
 		"content":
 		[
 			"https://docs.google.com/document/d/e/2PACX-1vR-w6K7vrD3D200F7VLZGjhRQl16Nz9kj5c6OweKrnaOdRbU2hOC-xPj-ioTjaXeg/pub?embedded=true",
-			"https://drive.google.com/file/d/1RGRrtAXIcX0fPT6Rxi1mt66feyW4NDeU/view?usp=share_link",
-			"https://drive.google.com/file/d/14y7xs7zTeHlEFUgsUP-oJhVcqioTFOBP/view?usp=sharing"
+			"https://drive.google.com/file/d/1RGRrtAXIcX0fPT6Rxi1mt66feyW4NDeU/preview",
+			"https://drive.google.com/file/d/14y7xs7zTeHlEFUgsUP-oJhVcqioTFOBP/preview"
 		]
 	},
 
