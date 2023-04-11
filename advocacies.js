@@ -63,7 +63,7 @@ document.addEventListener('click', (e) => {
 
     if(classList.includes(el.className)){
 
-        if(classList.includes(e.className) && el.className != classList[0]){
+        if(classList.includes(el.className) && el.className != classList[0]){
             selectedStudent = el.parentElement;
         }
         else{
