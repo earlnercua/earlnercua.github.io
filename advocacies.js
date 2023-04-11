@@ -78,7 +78,7 @@ document.addEventListener('click', (e) => {
 
         const essay = document.createElement('iframe');
         const video = document.createElement('video');
-        const infographic = document.createElement('img');
+        const infographic = document.createElement('iframe');
 
         essay.setAttribute('src', essayContent);
         video.setAttribute('src', videoContent);
