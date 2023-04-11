@@ -295,12 +295,12 @@ iframe{
 
 .students-list-item p{
     flex-wrap: nowrap;
+    cursor: pointer;
     /* flex-basis: 100%; */
 
-    font-size: 6pt;
+    font-size: 9pt;
 }
 .full-name{
-    font-size: 12pt;
     font-weight: 700; 
 }
 
@@ -326,6 +326,15 @@ iframe{
 
 }
 
+.btn-container{
+    display: flex;
+    width: 33.33%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3pt solid var(--main-accent);
+}
+
 .advocacy-tab-btn{
     height: 15px;
     color: var(--main-accent);
@@ -333,8 +342,6 @@ iframe{
     /* margin: 0 10px 0 10px; */
     align-self: center;
     cursor: pointer;
-
-    border-bottom: 3pt solid var(--main-accent);
 }
 
 .advocacy-content{
