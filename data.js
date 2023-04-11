@@ -438,9 +438,9 @@ export const data = [
 
 		"content":
 		[
-			"https://drive.google.com/file/d/16n6H0xW3PnGMP5r0YwSU6nAQS0oLJWRd/view?usp=share_link",
-			"https://drive.google.com/file/d/12tsZrDSnjgTvmf8SPB7nQJibcCFbDoHK/view?usp=share_link",
-			"https://drive.google.com/file/d/1DdwXCYJjI-1stuwHs4HK3O1e_HRZ4ede/view?usp=share_link"
+			"/docs.google.com/document/d/e/2PACX-1vQ_QovXbx6POJAYim29eZ_xGAH84FxK2V1hL9smtEYQdXWWwMZZQP2lvbaNTfsNvw/pub?embedded=true",
+			"https://docs.google.com/document/d/e/2PACX-1vSWDDkLdfSQDMpJY9XCKknSwnVmtlPNswKmqyDcL79C-WR90S3u1iMlpVqveR70TEJBiCmkEs26QT4n/pub?embedded=true",
+			null
 		]
 
 	},
