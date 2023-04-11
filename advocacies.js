@@ -165,7 +165,8 @@ document.addEventListener('click', (e) => {
 function removeAllChildren(parent){
 
     if(parent.hasChildNodes()){
-        for(let i = 0; i < parent.children; i++){
+        print("Has " + parent.children.length + " Children")
+        for(let i = 0; i < parent.children.length; i++){
             if(parent.children[i].className == "advocacy-tab-container"){
                 continue;
             }

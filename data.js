@@ -29,7 +29,7 @@ export const data = [
 
 		"content":
 		[
-			"https://docs.google.com/document/d/14jqJQjXRqo7hwTcTILLFQ4PAaB9kvha5yWdfUT--qDo/edit?usp=share_link",
+			"https://docs.google.com/document/d/e/2PACX-1vQGiz3txb_9mNeJXTOoRaMYLk461ostdRzt4VeHxQnlk3aoc8k1u7DMC2PTEJE_nizUQ9ZvR4cDHVh0/pub?embedded=true",
 			"https://drive.google.com/file/d/14qJSCFcnZ7YcJ9EmXacu9ZmEKR_la355/view?usp=share_link",
 			"https://drive.google.com/file/d/1ztf_Axg5AbFJXHkSZ88XZ_xo1ZDY65mm/view?usp=share_link"
 		]
