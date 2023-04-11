@@ -8,14 +8,8 @@ function createStudentElement(dataIndex){
     
 
     let profilePic = document.createElement('img');
-    let picURL = './images/profile_pictures';
-    let aaa = './images/profile_pictures/' + obj.last_name.replace(" ", "").toLowerCase() + '.jpeg'
-    let tryURL = new File([""], aaa);
-   
-
-    if(tryURL.exists()){
-        picURL = tryURL;
-    }
+    let picURL = './images/profile_pictures/abreu.jpeg';
+    //let aaa = './images/profile_pictures/' + obj.last_name.replace(" ", "").toLowerCase() + '.jpeg'
     
    
     
