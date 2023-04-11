@@ -336,7 +336,7 @@ iframe{
 }
 
 .advocacy-tab-btn{
-    height: 15px;
+    height: 100%;
     color: var(--main-accent);
     font-weight: 800;
     /* margin: 0 10px 0 10px; */
